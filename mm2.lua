@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://egorikusa.space/b9d4ae0ca30a7b10230b41a6.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/1175f96f72b11c5b4b1b5f24.lua", true))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 
